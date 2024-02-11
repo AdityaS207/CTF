@@ -1,0 +1,6 @@
+from Crypto.Util.number import *
+
+ord ="11515195063862318899931685488813747395775516287289682636499965282714637259206269"
+byte_data = bytes_to_long(ord)
+
+print(byte_data)
